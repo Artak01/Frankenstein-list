@@ -1,7 +1,6 @@
 #include <iostream>
 #include "frank_list.h"
 
-namespace vhuk {
 template<typename T>
 std::ostream& operator<<(std::ostream& out, const FrankList<T>& ob)
 {
@@ -1725,7 +1724,6 @@ void FrankList<T>::sort(bool reversed) {
     } while (b);
 }
 
-}
 
 
 

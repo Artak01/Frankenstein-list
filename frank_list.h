@@ -3,7 +3,6 @@
 
 #include <iostream>
 
-namespace vhuk {
 
 template <typename T>
 class FrankList;
@@ -429,7 +428,6 @@ private:
     Node* atail;
 };
 
-}
 #include "frank_list.cpp"
 #endif // _FRANKLIST_HPP__
 
